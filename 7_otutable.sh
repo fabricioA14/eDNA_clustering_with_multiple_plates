@@ -8,4 +8,4 @@ module load StdEnv VSEARCH/2.21.1-GCC-10.3.0
 # Sequences with at least 97% identity (--id 0.97) to a sequence in the database are considered matches.
 # The output OTU table will be written to otu_table.txt.
 
-vsearch --usearch_global merged_file.fasta  --id 0.97 --db otus.fasta --otutabout otu_table.txt
+vsearch --usearch_global merged_file.fasta --id 0.97 --db otus.fasta --otutabout otu_table.txt
